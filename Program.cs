@@ -16,4 +16,45 @@ public class cardHolder
         this.lastName = lastName;
         this.balance = balance;
     }
+
+    public String getCardNum()
+    {
+        return cardNum;
+    }
+
+    public int getPin() { 
+        return pin;
+    }
+    public String getFirstName()
+    {
+        return firstName;
+    }
+    public String getLastName()
+    {
+        return lastName;
+    }
+    public double getBalance()
+    {
+        return balance;
+    }
+    public void SetBalance(double balance)
+    {
+        this.balance = balance;
+    }
+    public void setCardNum(String cardNum)
+    {
+        this.cardNum = cardNum;
+    }
+    public void setPin(int pin)
+    {
+        this.pin = pin;
+    }
+    public void setFirstName(String firstName)
+    {
+        this.firstName = firstName;
+    }
+    public void setLastName(String lastName)
+    {
+        this.lastName = lastName;
+    }   
 }
